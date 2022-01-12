@@ -25,7 +25,7 @@ Also, replaced the reading and math scores for ninth graders at Thomas High Scho
 We used the pandas.DataFrame.loc to equate the math and reading scores of 9th graders from Thomas High School to np.nan.To use np.nan, we need to import Numpy.
 Original District Summary DataFrame with the analysis in the module is as below:
 
-![alt_text]("https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Original%20Student%20Data.png")
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Original%20Student%20Data.png)
 
 After we replaced the reading and math scores for ninth graders at Thomas High School with NaN, DataFrame looks like as below:
 

@@ -29,7 +29,7 @@ Original District Summary DataFrame with the analysis in the module is as below:
 
 After we replaced the reading and math scores for ninth graders at Thomas High School with NaN, DataFrame looks like as below:
 
-![alt_text]("Clean Student Data_NaN.png")
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Clean%20Student%20Data_NaN.png)
 
 After merging the clean student data with the school dataset and checking the column order for all the DataFrames and number formatting same as what was covered in this module, we started analysis on it.
 After replacing the reading and math scores,and recreating the district and school summary DataFrames we have to analyse by answering the questions for each step.
@@ -39,72 +39,103 @@ Results: Using bulleted lists and images of DataFrames as support, address the f
 
 How is the district summary affected?
 Before DATA Cleanup:
-![alt_text]("Initial District Summary.png")
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Initial%20District%20Summary.png)
+
 #Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, % Overall Passing
 #79.0, 81.9, 75, 86, 65
 After DATA Cleanup:
-![alt_text]("District Summary After 9th grade NaN.png")
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/District%20Summary%20After%209th%20grade%20NaN.png)
+
 #Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, % Overall Passing
 #78.9, 81.9, 74.8, 85.7, 64.9
 Observation: Slight downward change in district averages
 
 How is the school summary affected?
 Before DATA Cleanup: 
-![alt_text]("original school listings by performance.png")
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/original%20school%20listings%20by%20performance.png)
+
 Thomas High School's % Overall Passing = 91, placing second
 After DATA Cleanup: % Overall Passing = 65, placing eighth!
-![alt_text]("Top Schools after NaN.png")
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Top%20Schools%20after%20NaN.png)
+
 Observation: Overall ranking order change due to THOMAS HS, which slipped from second to eighth position.
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
 How does replacing the ninth-grade scores affect the following:
 We have to analyse How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance, relative to the other schools?
 Before Cleanup:original math and reading scores were
-![alt_text]("Math and Reading scores_original.png")
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Math%20and%20Reading%20scores_original.png)
+
 After Cleanup:
-![alt_text]("Math and Reading scores after NaN.png")
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Math%20and%20Reading%20scores%20after%20NaN.png)
+
 Observation: It shows 9th grade column as NaN and rst of the grade scores remains the same.
 After recalculating the high- and low-performing schools.Thomas High School ratinf clearly dropped from 2nd to 8th place.
 
 Math and reading scores by grade
 "%age passing" score is reduced as Total number of students (denominator) remains unchanged, but total passing value (numerator) is reduced by the number of removed 9th grade scores.
-![alt_text]("top five schools_original.png")
-![alt_text]("Top Schools after NaN.png")
-![alt_text]("Bottom Five Schools.png")
-![alt_text]("Bottom 5 Schools_NaN.png")
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/top%20five%20schools_original.png)
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Top%20Schools%20after%20NaN.png)
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Bottom%20Five%20Schools.png)
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Bottom%205%20Schools_NaN.png)
+
 Thomas HS 9th grade math & reading scores set to "NaN"
 Totals for passing math & reading across grades are reduced as all of 9th grade scores are equivalent to failing
 Average scores calculation not significantly affected by removal of 9th grade scores, seems due to count() function NOT including 9th grade scores = nan
 We cacluated number of students with a math grade
 BEFORE cleanup: Thomas High School       1635
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Math%20and%20Reading%20scores_original.png)
+
 AFTER cleanup: Thomas High School       1174
-![alt_text]("School Summary before academic integrity violation.png")
-![alt_text]("School Summary After NaN.png")
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Math%20and%20Reading%20scores%20after%20NaN.png)
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/School%20Summary%20before%20academic%20integrity%20violation.png)
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/School%20Summary%20After%20NaN.png)
+
 From these two images, we conclude that there is hardly any effect on the scores for THS.
 
 Scores by school spending
 Thomas HS is in the spending bucket "$630-644"
 Removing 9th grade scores reduces the "% Passing Math", "% Passing Reading" and "% Overall Passing" scores for spending bucket "$630-644" as follows
 BEFORE: 73, 84, 63
-![alt_text]
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Spending%20Ranges%20per%20student_original.png)
+
 AFTER: 67, 77, 56
-![alt_text]
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Scores%20by%20School%20Spending_NaN.png)
 
 Scores by school size
 Thomas HS is in the "Medium (1000-2000)" size bucket
 Removing 9th grade scores reduces the "% Passing Math", "% Passing Reading" and "% Overall Passing" scores for size bucket "Medium (1000-2000)" as follows
 BEFORE:94, 97, 91
-![alt_text]
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Performance%20by%20school%20size_original.png)
+
 AFTER: 88, 91, 85
-![alt_text]
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Scores%20by%20School%20Size_NaN.png)
 
 Scores by school type
 Thomas HS is in the "CHARTER" type bucket
 Removing 9th grade scores reduces the "% Passing Math", "% Passing Reading" and "% Overall Passing" scores for type bucket "CHARTER" as follows
 BEFORE:94, 97, 90
-![alt_text]
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Performance%20by%20school%20type_original.png)
+
 AFTER: 90	93	87
-![alt_text]
+
+![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Scores%20by%20School%20Type_NaN.png)
 
 Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 

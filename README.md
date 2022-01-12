@@ -24,9 +24,13 @@ After creating a duplicate of PyCitySchools.ipynb and rename it PyCitySchools_Ch
 Also, replaced the reading and math scores for ninth graders at Thomas High School with NaN.
 We used the pandas.DataFrame.loc to equate the math and reading scores of 9th graders from Thomas High School to np.nan.To use np.nan, we need to import Numpy.
 Original District Summary DataFrame with the analysis in the module is as below:
-![alt_text]("Original Student Data.png")
+
+![alt_text]("https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Original%20Student%20Data.png")
+
 After we replaced the reading and math scores for ninth graders at Thomas High School with NaN, DataFrame looks like as below:
+
 ![alt_text]("Clean Student Data_NaN.png")
+
 After merging the clean student data with the school dataset and checking the column order for all the DataFrames and number formatting same as what was covered in this module, we started analysis on it.
 After replacing the reading and math scores,and recreating the district and school summary DataFrames we have to analyse by answering the questions for each step.
 

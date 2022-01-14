@@ -99,44 +99,44 @@ Thomas HS is in the spending bucket "$630-644"
 
 Removing 9th grade scores reduces the "% Passing Math", "% Passing Reading" and "% Overall Passing" scores for spending bucket "$630-644" as follows
 
-- Before: 73, 84, 63
+- Before: 
 
 ![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Spending%20Ranges%20per%20student_original.png)
 
-- After: 67, 77, 56
+- After: 
 
 ![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Scores%20by%20School%20Spending_NaN.png)
 
-### Observation : Scores are substancially affected.
+### Observation : Scores are not substancially affected.
 
 ### Scores by school size
 
 Thomas HS is in the "Medium (1000-2000)" size bucket
 Removing 9th grade scores reduces the "% Passing Math", "% Passing Reading" and "% Overall Passing" scores for size bucket "Medium (1000-2000)" as follows
-- Before:94, 97, 91
+- Before:
 
 ![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Performance%20by%20school%20size_original.png)
 
-- After: 88, 91, 85
+- After: 
 
 ![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Scores%20by%20School%20Size_NaN.png)
 
-### Observation : Scores are substancially affected.
+### Observation : Scores are not substancially affected.
 
 ### Scores by school type
 
 Thomas HS is in the "CHARTER" type bucket
 Removing 9th grade scores reduces the "% Passing Math", "% Passing Reading" and "% Overall Passing" scores for type bucket "CHARTER" as follows
-- Before:94, 97, 90
+- Before:
 
 ![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Performance%20by%20school%20type_original.png)
 
-- After: 90	93	87
+- After: 
 
 ![alt_text](https://github.com/RGK73/School_District_Analysis/blob/main/PNGs/Scores%20by%20School%20Type_NaN.png)
 
-### Observation : Scores are substancially affected.
+### Observation : Scores are not substancially affected.
 
-## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-Overall ranking order change due to THOMAS HS, which slipped from second to eighth position. In case of Math and Reading scores, as 9th grade scores are NaN , analysis of the school records based on school spending, school size, and school type are also affected. % Overall Passing is down.
+### Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Overall ranking order change due to THOMAS HS, which slipped from second to eighth position. In case of Math and Reading scores, as 9th grade scores are NaN , analysis of the school records based on school spending, school size, and school type are not substancially affected.
 
